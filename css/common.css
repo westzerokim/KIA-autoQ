@@ -465,15 +465,50 @@ background-color:#ffffff;
 
 main{
   display: flex;
+  position: relative;
+  width: 100%;
+  
 }
 #left{
   width: 45%;
   background: #5D7D2B;
+  height: 100vh
   
+  
+}
+#left .car_img a>img{
+  position: absolute;
+  top: 20%;
+  left: 5.5%;
 }
 #right{
   width: 55%;
-  background: blueviolet;
+
+  position: relative;
+}
+
+#right .r_title{
+ font-size: 64px;
+ font-weight: bold;
+ position: absolute;
+ top: 10%;
+ left: 10%;
+}
+#right #r_content{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+#right #r_content .car_imfo{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#right #r_content .fix_history{
+  font-size: 48px;
+}
+#right #r_content .fix_history .fix_bt{
+  height: 100px;
+  width: fit-content;
 }
 
 /*
