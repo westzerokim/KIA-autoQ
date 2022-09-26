@@ -6,7 +6,7 @@ body{
   line-height: 1.4; 
   font-family: 'Nanum Gothic', sans-serif;
   width: 1920px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 img{
@@ -28,7 +28,6 @@ a:visited {
 input{
   text-decoration: none;
 }
-
 
 
 /* .clear {
@@ -510,7 +509,9 @@ main{
   height: 100px;
   width: fit-content;
 }
-
+#s_content input[id*="answer"]{
+  display: none;
+}
 /*
 header .sub-menu {
   position: absolute;
