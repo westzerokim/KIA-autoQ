@@ -67,6 +67,7 @@
       <a href="#" class="logo">
         <img src="../img/logo_members.png" alt="top_logo">
       </a>
+      <a href="../enterNum/index.html" class="btn back_num">이전</a>
     </div>
   </header>
   <main>
@@ -81,19 +82,16 @@
       <div class="r_title">
         <h1>차량정보</h1>
       </div>
-      <div id ="r_content">
+      <div id ="car_content">
         <ul class="car_imfo">
           <li>차량번호 : 4567</li>
-          <li>소유주 : 홍*동</li>
+          <li>소유주 : 홍길동</li>
           <li>차종 : 셀토스</li>
         </ul>
         <div class="fix_history">
           <a href="#" class="btn fix_bt">수리내역보기</a>
-        </div>
-        <div class="r_choice">
-          <h1>수리부분선택</h1>
-          <a href="#" class="btn">일반</a>
-          <a href="#" class="btn">보증 </a>
+       
+          <a href="../receive_fix/index.html" class="btn fix_bt">수리부분선택</a>
         </div>  
       </div>
       
@@ -101,67 +99,102 @@
   </main>
 </body>
 <div id="f_back">
-  <div class="bg">
+  <div class="backg">
     <a href="#"></a>
   </div>
-  <div id="slide_menu">
+  <div id="fhi_menu">
   
-    <div id="s_header">
-      <div class="s_title">
+    <div id="f_header">
+      <div class="f_title">
         <h1>수리내역</h1>
       </div>
       <input type="button" value="이전" class="back_num button">
     </div>
-    <div id="s_content">
+    <div id="f_content">
       <div class="content1">
         <h4>2022년 09월</h4>
         <ul class="no1 accordion">
-          <li>2022년 09월 28일</li>
-          <li>엔진오일 교체</li>
-          <input type="checkbox" id="answer01">
-          <label for="answer01">더보기</label>
+          <li>● 2022년 09월 28일</li>
+          <li>● 엔진오일 교체</li>
+          <input type="checkbox" id="answer01" >
+          <label for="answer01">------ 더보기 + ------</label>
           <div>
-            <input type="text"> 
-            <p>주행거리</p>
             <ul>
-              <li>목록 1</li>
+              <li>수리내역 : 엔진오일교체 / 에어컨 프레온가스 충전</li>
+              <li>주행거리 : 100,000km</li>
             </ul>
           </div>
         </ul>
         <ul class="no2 accordion">
-          <li>2022년 09월 03일</li>
-          <li>에어컨 필터 교체</li>
-          <input type="button" value="더보기">
+          <li>● 2022년 09월 03일</li>
+          <li>● 에어컨 필터 교체</li>
+          <input type="checkbox" id="answer02" >
+          <label for="answer02">------ 더보기 + ------</label>
+          <div>
+            <ul>
+              <li>수리내역 : 에어컨 필터 교체/후면등 교체/브레이크 점검</li>
+              <li>주행거리 : 5,200,000km</li>
+            </ul>
+          </div>
         </ul>
       </div>
       <div class="content2">
         <h4>2022년 08월</h4>
         <ul class="no1 accordion">
-          <li>2022년 08월 14일</li>
-          <li>브레이크 점검</li>
-          <input type="button" value="더보기">
+          <li>● 2022년 08월 14일</li>
+          <li>● 브레이크 점검</li>
+          <input type="checkbox" id="answer03" >
+          <label for="answer03">------ 더보기 + ------</label>
+          <div>
+            <ul>
+              <li>수리내역 : 브레이크접검/냉난방 장치 점검/실내소음</li>
+              <li>주행거리 : 48,000,000km</li>
+            </ul>
+          </div>
         </ul>
       </div>
       <div class="content3">
         <h4>2022년 07월</h4>
         <ul class="no1 accordion">
-          <li>2022년 07월 03일</li>
-          <li>정기점검</li>
-          <input type="button" value="더보기">
+          <li>● 2022년 07월 03일</li>
+          <li>● 정기점검</li>
+          <input type="checkbox" id="answer04" >
+          <label for="answer04">------ 더보기 + ------</label>
+          <div>
+            <ul>
+              <li>수리내역 : 정기점검 / 차량쏠림</li>
+              <li>주행거리 : 500,000,000km</li>
+            </ul>
+          </div>
         </ul>
+      
         <ul class="no2 accordion">
-          <li>2022년 07월 11일</li>
-          <li>타이어교체</li>
-          <input type="button" value="더보기">
+          <li>● 2022년 07월 11일</li>
+          <li>● 타이어교체</li>
+          <input type="checkbox" id="answer05" >
+          <label for="answer05">------ 더보기 + ------</label>
+          <div>
+            <ul>
+              <li>수리내역 : 타이어교체 / 부동액 교체/ 배터리교체</li>
+              <li>주행거리 : 20,000,000km</li>
+            </ul>
+          </div>
         </ul>
       </div>
-      <div class="content1">
+      <div class="content4">
         <h4>2022년 06월</h4>
         <ul class="no1 accordion">
-          <li>2022년 06월 24일</li>
-          <li>정기점검</li>
-          <input type="button" value="더보기">
-        </ul>
+          <li>● 2022년 06월 24일</li>
+          <li>● 정기점검</li>
+          <input type="checkbox" id="answer06" >
+          <label for="answer06">------ 더보기 + ------</label>
+          <div>
+            <ul>
+              <li>수리내역 : 에어컨 필터 교체 / 와이퍼교체</li>
+              <li>주행거리 : 500,000,000km</li>
+            </ul>
+          </div>
+        </ul>       
       </div>
     </div>
     <div class="under">
